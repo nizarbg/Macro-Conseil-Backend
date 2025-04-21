@@ -10,7 +10,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/email")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://main.d25g6ptr7juzfh.amplifyapp.com")
 public class EmailController {
 
     private final EmailService emailService;
